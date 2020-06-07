@@ -1,0 +1,23 @@
+.btn {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: $mainYellow;
+  color: white;
+  border-radius: 3px;
+  border: solid 2px $mainYellow;
+  padding: 1rem 3rem;
+
+  @include small {
+    font-size: 1.4rem;
+  }
+
+  &--shallow {
+    background: transparent;
+
+    &:hover {
+      background-color: $mainYellow;
+    }
+  }
+}

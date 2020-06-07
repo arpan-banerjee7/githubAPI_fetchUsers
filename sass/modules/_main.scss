@@ -1,0 +1,112 @@
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/bg-main.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+  text-align: center;
+  height: auto;
+  border-bottom: solid 10px $mainYellow;
+
+  &__title {
+    font-size: 7.3rem !important;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    font-weight: medium;
+    color: $mainYellow;
+    font-family: "Roboto Slab";
+    font-size: 14rem;
+
+    strong {
+      color: $mainYellow;
+    }
+
+    @include large {
+      font-size: 5.3rem !important;
+    }
+
+    @include medium {
+      font-size: 5.3rem !important;
+    }
+
+    @include small {
+      font-size: 4rem !important;
+    }
+  }
+
+  &__subtitle {
+    padding: 0px 0 30px 0;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 2rem;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+    color: rgb(196, 196, 196);
+    font-family: "SF Mono";
+    font-weight: 200;
+
+    @include large {
+      max-width: 67%;
+    }
+
+    @include medium {
+      max-width: 87%;
+      font-size: 2rem !important;
+    }
+
+    @include small {
+      max-width: 95%;
+      font-size: 1.7rem !important;
+    }
+  }
+
+  &__input {
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border: 0;
+    background: transparent;
+    border-bottom: solid 2px rgba(255, 255, 255, 0.25);
+    margin-right: 2rem;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    @include medium {
+      width: 30%;
+    }
+
+    @include small {
+      display: block;
+      width: 80%;
+      margin-bottom: 2rem;
+    }
+
+    &::placeholder {
+      font-weight: lighter;
+      letter-spacing: 1px;
+      font-size: 1.3rem;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__profile-container {
+    margin-top: 7rem;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__profile-key {
+    color: $mainYellow;
+    padding-bottom: 2rem;
+  }
+
+  &__profile-value {
+    color: #fff;
+  }
+}

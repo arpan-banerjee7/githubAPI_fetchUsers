@@ -1,0 +1,203 @@
+@import url(f:\Codes_projects\JavaScript Projects\GitHub API\css\vendors\bootstrap.min.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'SF Mono', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none !important;
+  color: #eeb83b;
+}
+
+a:hover {
+  color: #222120;
+}
+
+.btn {
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #eeb83b;
+  color: white;
+  border-radius: 3px;
+  border: solid 2px #eeb83b;
+  padding: 1rem 3rem;
+}
+
+@media (max-width: 530px) {
+  .btn {
+    font-size: 1.4rem;
+  }
+}
+
+.btn--shallow {
+  background: transparent;
+}
+
+.btn--shallow:hover {
+  background-color: #eeb83b;
+}
+
+.main {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../img/bg-main.jpg") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/bg-main.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: center;
+  height: 100vh;
+  border-bottom: solid 10px #eeb83b;
+}
+
+.main__title {
+  font-size: 7.3rem !important;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  font-weight: medium;
+  color: #eeb83b;
+  font-family: "Roboto Slab";
+  font-size: 14rem;
+}
+
+.main__title strong {
+  color: #eeb83b;
+}
+
+@media (max-width: 1024px) {
+  .main__title {
+    font-size: 5.3rem !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .main__title {
+    font-size: 5.3rem !important;
+  }
+}
+
+@media (max-width: 530px) {
+  .main__title {
+    font-size: 4rem !important;
+  }
+}
+
+.main__subtitle {
+  padding: 0px 0 30px 0;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 2rem;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  color: #c4c4c4;
+  font-family: "SF Mono";
+  font-weight: 200;
+}
+
+@media (max-width: 1024px) {
+  .main__subtitle {
+    max-width: 67%;
+  }
+}
+
+@media (max-width: 800px) {
+  .main__subtitle {
+    max-width: 87%;
+    font-size: 2rem !important;
+  }
+}
+
+@media (max-width: 530px) {
+  .main__subtitle {
+    max-width: 95%;
+    font-size: 1.7rem !important;
+  }
+}
+
+.main__input {
+  display: inline-block;
+  width: 20%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  border: 0;
+  background: transparent;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.25);
+  margin-right: 2rem;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 800px) {
+  .main__input {
+    width: 30%;
+  }
+}
+
+@media (max-width: 530px) {
+  .main__input {
+    display: block;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}
+
+.main__input::-webkit-input-placeholder {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.main__input:-ms-input-placeholder {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.main__input::-ms-input-placeholder {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.main__input::placeholder {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.main__input:focus {
+  outline: none;
+}
+
+.main__profile-container {
+  margin-top: 7rem;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main__profile-key {
+  color: #eeb83b;
+  padding-bottom: 2rem;
+}
+
+.main__profile-value {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
